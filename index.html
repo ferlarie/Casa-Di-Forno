@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Di Forno — O sabor da tradição italiana</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600&family=Dancing+Script:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#inicio" class="logo">CASA DI FORNO</a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#cardapio" class="nav-link">Cardápio</a>
+      <a href="#localizacao" class="nav-link">Localização</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+
+    <a href="https://wa.me/5547984612317?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn btn-outline header-cta" id="whatsapp-header-btn">Entre em contato</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-overlay"></div>
+  <div class="hero-tape hero-tape-1"></div>
+  <div class="hero-tape hero-tape-2"></div>
+
+<div class="hero-content reveal">
+      <p class="eyebrow">Desde 1980</p>
+    <h1 class="hero-title">CASA<br>DI FORNO</h1>
+    <p class="hero-subtitle">O sabor da tradição italiana</p>
+
+    <div class="hero-buttons">
+      <a href="#cardapio" class="btn btn-solid">Ver cardápio</a>
+      <a href="https://wa.me/5547984612317?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn btn-outline" id="whatsapp-hero-btn">Entre em contato</a>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- ===== HISTÓRIA ===== -->
+<section class="history" id="sobre">
+  <div class="history-inner">
+<div class="history-image reveal">
+        <img src="img/pizzas/Nossahistoria.png">
+    </div>
+
+<div class="history-content reveal">
+        <p class="script-eyebrow">Nossa</p>
+      <h2 class="section-title">HISTÓRIA</h2>
+      <p class="history-lead">Sua nova pizzaria <span class="accent">favorita</span> começa aqui.</p>
+
+      <p>Fundado em 1980, em Joinville, a Casa Di Forno nasceu de um sonho simples: criar um lugar onde cada fatia conta uma história.</p>
+
+      <p>Mais do que uma pizzaria, criamos um refúgio. Um espaço onde o tempo desacelera, os detalhes ganham vida e cada ambiente convida você a viver uma experiência única.</p>
+
+      <p>Aqui, cada visita é um momento. E cada momento, uma experiência para todos os sentidos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CARDÁPIO ===== -->
+<section class="menu" id="cardapio">
+  <div class="menu-header reveal">
+    <p class="script-eyebrow">Nosso</p>
+    <h2 class="section-title">CARDÁPIO</h2>
+    <p class="menu-sizes">Broto · Pequena · Média · Grande · Gigante</p>
+  </div>
+
+  <div class="carousel reveal" id="carousel">
+    <button class="carousel-arrow carousel-arrow-left" id="carousel-prev" aria-label="Pizza anterior">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+
+    <div class="carousel-track" id="carousel-track"></div>
+
+    <button class="carousel-arrow carousel-arrow-right" id="carousel-next" aria-label="Próxima pizza">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+
+  <div class="menu-info reveal" id="menu-info">
+    <p class="script-eyebrow small">Sabor</p>
+    <h3 class="pizza-name" id="pizza-name"></h3>
+    <p class="pizza-desc" id="pizza-desc"></p>
+  </div>
+
+  <div class="carousel-dots" id="carousel-dots"></div>
+</section>
+
+<!-- ===== LOCALIZAÇÃO ===== -->
+<section class="location" id="localizacao">
+  <div class="location-inner">
+    <div class="location-content reveal">
+      <p class="script-eyebrow">Nossa</p>
+      <h2 class="section-title">LOCALIZAÇÃO</h2>
+      <p class="location-lead">Nos encontre</p>
+
+      <h3 class="location-name">CASA DI FORNO</h3>
+      <p class="location-address">Rua da Alegria, 123 - América<br>Joinville - SC</p>
+
+      <div class="hours-table">
+        <div class="hours-row"><span>Segunda - Sexta</span><span>14h30 às 20h</span></div>
+        <div class="hours-row"><span>Sábado</span><span>14h30 às 20h</span></div>
+        <div class="hours-row"><span>Domingo</span><span>14h30 às 20h</span></div>
+        <div class="hours-row"><span>Feriados</span><span>14h30 às 20h</span></div>
+      </div>
+
+      <ul class="location-features">
+        <li><span class="plus">+</span>Wifi gratuito</li>
+        <li><span class="plus">+</span>Tomada em todas as mesas</li>
+        <li><span class="plus">+</span>Acessível para cadeirantes</li>
+        <li><span class="plus">+</span>Espaço pet-friendly</li>
+      </ul>
+
+      <a href="#" class="btn btn-solid maps-btn" id="maps-btn-list">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Abrir no Google Maps
+      </a>
+    </div>
+
+    <div class="location-badge reveal">
+      <div class="badge-circle">
+        <svg class="badge-ring" viewBox="0 0 300 300">
+          <circle cx="150" cy="150" r="140" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="150" cy="150" r="120" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <div class="badge-pin">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12 2C7.6 2 4 5.6 4 10c0 5.4 7 11.5 7.3 11.8.2.1.5.2.7.2s.5-.1.7-.2C13 21.5 20 15.4 20 10c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        </div>
+        <div class="badge-text">
+          <p class="badge-title">CASA DI FORNO</p>
+          <p class="badge-sub">Joinville · Santa Catarina</p>
+          <a href="#" class="badge-link" id="maps-btn-badge">Ver no mapa</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER / CONTATO ===== -->
+<footer class="site-footer" id="contato">
+  <div class="footer-inner reveal">
+    <p class="logo footer-logo">CASA DI FORNO</p>
+    <p class="footer-tagline">O sabor da tradição italiana, desde 1980.</p>
+    <a href="#" class="btn btn-solid" id="whatsapp-footer-btn">Falar no WhatsApp</a>
+    <p class="footer-copy">© 2026 Casa Di Forno. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
